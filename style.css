@@ -1,0 +1,63 @@
+/* Import, Install, etc. Open Props */
+@import "https://unpkg.com/open-props";
+
+/* Import of Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+
+/* Diagnostic Styling */
+* {
+/*   outline: 1px double gray; */
+}
+
+body {
+  background : var(--gradient-21);
+  height: 100vh;
+}
+
+/* Main Container */
+main {
+  width: 800px;
+  margin: 0 auto 0 auto;
+  padding: 32px;
+}
+
+audio {
+  width: 100%;
+}
+
+/* score: 0,0,0,1 */
+h1 {
+  text-align: center;
+}
+
+/* score: 0,0,1,1 */
+h1:hover { 
+  animation: var(--animation-shake-x);
+}
+
+h1 a {
+  font-family: "chewy";
+  color: white;
+  text-decoration: none;
+}
+
+h1 a:hover {
+  color: var(--pink-6);
+}
+
+/*Smarty Comments*/
+span{
+  font-family: "chewy";
+  font-size: 24px;
+  padding: 6px;
+  animation: var(--animation-shake-x);
+  
+  background: rgba(255, 255, 255, .5);
+  border-radius: var(--radius-blob-1);
+  
+}
+
+span:hover{
+  display: inline-block;
+  animation: var(--animation-shake-x);
+}
